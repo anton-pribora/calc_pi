@@ -28,7 +28,7 @@ for($i = 0; $i < $children; $i += 1) {
     
     // Закрываем неиспользуемые потоки
     fclose($pipes[0]);  // stdin
-    fclose($pipes[2]);  // stdout
+    fclose($pipes[2]);  // stderr
 }
 
 // Обработка результатов
